@@ -1,0 +1,72 @@
+/* === LAYOUT GENERAL === */
+
+/* 1. Contenedor principal */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Para móviles */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* 4. Contenido principal */
+main {
+    flex: 1; /* hace que main crezca para ocupar espacio */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* === MEDIA QUERIES === */
+
+/* Dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 90%;
+        text-align: center;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+}
+
+/* Dispositivos medianos (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main {
+        padding: 1rem 2rem;
+    }
+}
+
+/* Escritorio grande */
+@media (min-width: 1025px) {
+    nav {
+        justify-content: center;
+    }
+
+    main {
+        padding: 2rem;
+    }
+}

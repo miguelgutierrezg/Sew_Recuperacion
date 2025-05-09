@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Gastronomía de Langreo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo/estilo.css" />
+    <link rel="stylesheet" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Gastronomía</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="gastronomia.html" class="active">Gastronomía</a>
+            <a href="rutas.html">Rutas</a>
+            <a href="meteorologia.html">Meteorología</a>
+            <a href="juego.html">Juego</a>
+            <a href="reservas.php">Reservas</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Platos típicos</h2>
+
+        <!-- Lista ordenada -->
+        <ol>
+            <li>Fabada asturiana</li>
+            <li>Cachopo</li>
+            <li>Caldereta de cordero</li>
+        </ol>
+
+        <!-- Lista no ordenada con lista anidada -->
+        <ul>
+            <li>Postres tradicionales
+                <ul>
+                    <li>Arroz con leche</li>
+                    <li>Frixuelos</li>
+                </ul>
+            </li>
+            <li>Embutidos artesanos</li>
+            <li>Quesos asturianos</li>
+        </ul>
+
+        <!-- Lista de definición -->
+        <dl>
+            <dt>Fabada</dt>
+            <dd>Plato típico a base de fabes, chorizo, morcilla y tocino.</dd>
+
+            <dt>Cachopo</dt>
+            <dd>Filetes empanados rellenos de jamón y queso, acompañados de patatas.</dd>
+
+            <dt>Arroz con leche</dt>
+            <dd>Postre dulce cocido lentamente con canela y cáscara de limón.</dd>
+        </dl>
+
+        <!-- Tabla accesible -->
+        <h3 id="tabla-platos">Comparativa de platos típicos</h3>
+        <table aria-labelledby="tabla-platos">
+            <thead>
+                <tr>
+                    <th scope="col">Plato</th>
+                    <th scope="col">Tipo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fabada</td>
+                    <td>Plato principal</td>
+                </tr>
+                <tr>
+                    <td>Cachopo</td>
+                    <td>Plato principal</td>
+                </tr>
+                <tr>
+                    <td>Arroz con leche</td>
+                    <td>Postre</td>
+                </tr>
+                <tr>
+                    <td>Frixuelos</td>
+                    <td>Postre</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Imagen adaptable y accesible -->
+        <figure>
+            <img src="multimedia/imagenes/cachopo.png" alt="Cachopo asturiano servido con patatas" style="max-width: 100%; height: auto;" />
+            <figcaption>Cachopo asturiano</figcaption>
+        </figure>
+
+        <!-- Vídeo adaptable y accesible con dos formatos -->
+        <h3>Vídeo sobre gastronomía</h3>
+        <video controls width="100%" aria-label="Vídeo sobre la gastronomía de Langreo">
+            <source src="multimedia/videos/gastronomia.mp4" type="video/mp4">
+            <source src="multimedia/videos/gastronomia.webm" type="video/webm">
+            Tu navegador no soporta el vídeo HTML5.
+        </video>
+    </main>
+</body>
+</html>

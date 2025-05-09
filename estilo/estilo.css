@@ -1,6 +1,99 @@
-header{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #dd0404;
+/* Paleta de colores:
+#CAE5FF - Azul claro (fondo general)
+#ACEDFF - Celeste (fondos suaves)
+#89BBFE - Azul medio (acentos, hover)
+#6F8AB7 - Azul grisáceo (elementos destacados)
+#615D6C - Gris púrpura (texto principal o navbar fondo)
+*/
+
+body {
+    background-color: #CAE5FF; /* Fondo claro para buena legibilidad */
+    color: #615D6C; /* Texto principal oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Encabezado */
+header {
+    background-color: #6F8AB7; /* Azul grisáceo elegante */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #ACEDFF;
     color: #141B03;
-    width: 100%
- }
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav a:hover {
+    background-color: #89BBFE;
+    color: white;
+}
+
+nav a.active {
+    background-color: #615D6C;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: #ACEDFF;
+}
+
+table th,
+table td {
+    border: 1px solid #6F8AB7;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #89BBFE;
+    color: white;
+}
+
+/* Figuras e imágenes */
+figure {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Videos y audios */
+video,
+audio {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+}
+
+/* Main content spacing */
+main {
+    padding: 1.5rem;
+}
