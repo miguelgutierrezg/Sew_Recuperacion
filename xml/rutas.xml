@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas>
+    <ruta recomendacion="10">
+        <nombre>Sama Llangréu. Circular al Mayáu Solís</nombre>
+        <tipo>Trail Running</tipo>
+        <transporte>A pie</transporte>
+        <duracion>2 h 21 min</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta circular con salida desde Sama de Langreo, recorriendo montes y pistas forestales con vistas sobre el valle del Nalón y el Cordal de Llorínte.</descripcion>
+        <personas>Recomendado para cualquier tipo de persona física</personas>
+        <referencias>
+            <ref>https://www.wikiloc.com/trail-running-trails/sama-llangreu-circular-al-mayau-solis-asturies-endurera-200000849</ref>
+            <ref>https://turismo.ayto-langreo.es/que-hacer/langreo-natural/rutas-y-senderos</ref>
+            <ref>https://www.alltrails.com/es/spain/asturias/langreo</ref>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre>Inicio</nombre>
+                <descripcion>Salida desde la ciudad.</descripcion>
+                <coordenadas lat="43.2931762" lon="-5.6768794" alt="213" />
+                <distancia unidad="km">0</distancia>
+                <imagenes>
+                    <img>sama-inicio.jpg</img>
+                </imagenes>
+            </hito>
+            <hito>
+                <nombre>Cuélebre</nombre>
+                <descripcion>Estatua del Cuélebre.</descripcion>
+                <coordenadas lat="43.291708" lon="-5.673628" alt="215" />
+                <distancia unidad="km">0.3</distancia>
+                <imagenes>
+                    <img>cuelebre.png</img>
+                </imagenes>
+            </hito>
+            <hito>
+                <nombre>Río Nalon</nombre>
+                <descripcion>Cruce sobre el río Nalón.</descripcion>
+                <coordenadas lat="43.290074" lon="-5668123" alt="218" />
+                <distancia unidad="km">0.7</distancia>
+                <imagenes>
+                    <img>nalon.png</img>
+                </imagenes>
+            </hito>
+            <hito>
+                <nombre>Subida</nombre>
+                <descripcion>Punto medio de la subida.</descripcion>
+                <coordenadas lat="43.293848" lon="-5.658064" alt="350" />
+                <distancia unidad="km">1.5</distancia>
+                <imagenes>
+                    <img>subida.png</img>
+                </imagenes>
+            </hito>
+            <hito>
+                <nombre>Mayau Solís</nombre>
+                <descripcion>Punto más alto de la ruta.</descripcion>
+                <coordenadas lat="43.303456" lon="-5.646628" alt="622" />
+                <distancia unidad="km">2.2</distancia>
+                <imagenes>
+                    <img>cumbre.png</img>
+                </imagenes>
+            </hito>
+            <hito>
+                <nombre>Comienzo del descenso</nombre>
+                <descripcion>Punto más alto de la ruta.</descripcion>
+                <coordenadas lat="43.310545" lon="-5.6511" alt="495" />,
+                <distancia unidad="km">1.6</distancia>
+                <imagenes>
+                    <img>ComienzoDescenso.png</img>
+                </imagenes>
+            </hito>
+            <hito>
+                <nombre>Final</nombre>
+                <descripcion>Punto más alto de la ruta.</descripcion>
+                <coordenadas lat="43.293319" lon="-5.676118" alt="212" />
+                <distancia unidad="km">3.8</distancia>
+                <imagenes>
+                    <img>final.png</img>
+                </imagenes>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
