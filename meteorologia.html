@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Meteorología</title>
+    <meta name="author" content="Miguel Gutiérrez García" />
+    <meta name="description" content="Información meteorológica sobre el concejo de Langreo." />
+    <meta name="keywords" content="Langreo, meteorología, tiempo, clima, Asturias" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="estilo/estilo.css" />
+    <link rel="stylesheet" href="estilo/layout.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/meteorologia.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Meteorologia</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="gastronomia.html">Gastronomia</a>
+            <a href="rutas.html">Rutas</a>
+            <a href="meteorologia.html" class="active">Meteorologia</a>
+            <a href="juego.html">Juego</a>
+            <a href="reservas.php">Reservas</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: Meteorología</p>
+
+    <main>
+        <section>
+            <h2>Previsión meteorológica para los próximos 7 días</h2>
+        </section>
+
+        <section id="prevision-semanal" aria-label="Previsión meteorológica">
+            <!-- jQuery insertará los <article> aquí -->
+        </section>
+    </main>
+</body>
+</html>

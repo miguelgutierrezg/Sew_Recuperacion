@@ -6,9 +6,10 @@
 #615D6C - Gris púrpura (texto principal o navbar fondo)
 */
 
+/* Fondo general y texto */
 body {
-    background-color: #CAE5FF; /* Fondo claro para buena legibilidad */
-    color: #615D6C; /* Texto principal oscuro */
+    background-color: #CAE5FF;
+    color: #615D6C;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #6F8AB7; /* Azul grisáceo elegante */
+    background-color: #6F8AB7;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -35,11 +36,12 @@ nav {
 nav a {
     text-decoration: none;
     background-color: #ACEDFF;
-    color: #141B03;
+    color: #615D6C;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     display: inline-block;
     margin: 0.25rem;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -50,7 +52,18 @@ nav a:hover {
 nav a.active {
     background-color: #615D6C;
     color: white;
-    font-weight: bold;
+}
+
+ol,
+ul {
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    width: fit-content;
+}
+
+li {
+    text-align: left;
 }
 
 
@@ -74,6 +87,28 @@ table th {
     color: white;
 }
 
+
+button {
+    background-color: #6F8AB7; /* Azul grisáceo */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(97, 93, 108, 0.2);
+    display: inline-block;
+    margin: 0.5rem auto;
+}
+
+button:hover {
+    background-color: #89BBFE; /* Azul medio en hover */
+    transform: translateY(-2px);
+}
+
+
 /* Figuras e imágenes */
 figure {
     text-align: center;
@@ -93,7 +128,46 @@ audio {
     max-width: 100%;
 }
 
-/* Main content spacing */
+/* Main */
 main {
     padding: 1.5rem;
 }
+
+main > section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+main > section:nth-of-type(2) article {
+    background-color: #ACEDFF;
+    border: 2px solid #89BBFE;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(97, 93, 108, 0.2);
+    padding: 1rem;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+main > section:nth-of-type(2) article h3 {
+    color: #615D6C;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+main > section:nth-of-type(2) article p {
+    font-size: 0.95rem;
+    margin: 0.4rem 0;
+    color: #141B03;
+}
+
+main > section:nth-of-type(2) article img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+
