@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Sama Llangréu. Circular al Mayáu Solís</name>
+    <Placemark>
+        <name>Sama Llangréu. Circular al Mayáu Solís</name>
+        <LineString>
+            <coordinates>
+                -5.6768794,43.2931762,213
+                -5.673628,43.291708,215
+                -5.668123,43.290074,218
+                -5.658064,43.293848,350
+                -5.646628,43.303456,622
+                -5.6511,43.310545,495
+                -5.676118,43.293319,212
+            </coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

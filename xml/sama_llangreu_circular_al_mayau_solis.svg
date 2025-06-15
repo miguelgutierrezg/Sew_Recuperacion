@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<line x1="40" x2="760" y1="360.0" y2="360.0" stroke="gray" stroke-dasharray="4" />
+<text x="40" y="355.0" font-size="12" fill="gray">Nivel del mar (0 m)</text>
+<polyline points="40.0,250.41800643086816 61.386138613861384,249.38906752411577 111.28712871287128,247.84565916398714 218.2178217821782,179.93569131832797 375.049504950495,40.0 489.1089108910891,105.33762057877811 760.0,250.93247588424438" style="fill:none;stroke:blue;stroke-width:2" />
+<circle cx="40.0" cy="250.41800643086816" r="4" fill="red" />
+<text x="45.0" y="240.41800643086816" font-size="12" fill="black">213 m</text>
+<text x="45.0" y="260.41800643086816" font-size="10" fill="gray">Inicio</text>
+<circle cx="61.386138613861384" cy="249.38906752411577" r="4" fill="red" />
+<text x="66.38613861386139" y="239.38906752411577" font-size="12" fill="black">215 m</text>
+<text x="66.38613861386139" y="259.3890675241158" font-size="10" fill="gray">Cuélebre</text>
+<circle cx="111.28712871287128" cy="247.84565916398714" r="4" fill="red" />
+<text x="116.28712871287128" y="237.84565916398714" font-size="12" fill="black">218 m</text>
+<text x="116.28712871287128" y="257.84565916398714" font-size="10" fill="gray">Río Nalón</text>
+<circle cx="218.2178217821782" cy="179.93569131832797" r="4" fill="red" />
+<text x="223.2178217821782" y="169.93569131832797" font-size="12" fill="black">350 m</text>
+<text x="223.2178217821782" y="189.93569131832797" font-size="10" fill="gray">Subida</text>
+<circle cx="375.049504950495" cy="40.0" r="4" fill="red" />
+<text x="380.049504950495" y="30.0" font-size="12" fill="black">622 m</text>
+<text x="380.049504950495" y="50.0" font-size="10" fill="gray">Mayáu Solís</text>
+<circle cx="489.1089108910891" cy="105.33762057877811" r="4" fill="red" />
+<text x="494.1089108910891" y="95.33762057877811" font-size="12" fill="black">495 m</text>
+<text x="494.1089108910891" y="115.33762057877811" font-size="10" fill="gray">Comienzo del descenso</text>
+<circle cx="760.0" cy="250.93247588424438" r="4" fill="red" />
+<text x="765.0" y="240.93247588424438" font-size="12" fill="black">212 m</text>
+<text x="765.0" y="260.93247588424435" font-size="10" fill="gray">Final</text>
+</svg>

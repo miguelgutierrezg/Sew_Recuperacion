@@ -31,3 +31,13 @@
 
 <!ELEMENT imagenes (img+)>
 <!ELEMENT img (#PCDATA)>
+
+<!ELEMENT planimetria EMPTY>
+<!ATTLIST planimetria archivo CDATA #REQUIRED>
+
+<!ELEMENT altimetria EMPTY>
+<!ATTLIST altimetria archivo CDATA #REQUIRED>
+
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT horaInicio (#PCDATA)>
+
